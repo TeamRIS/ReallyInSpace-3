@@ -1,0 +1,9 @@
+{
+  "group": "ris3",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "ris3:martian_stone"
+  },
+  "result": "ris3:martian_stone_stairs"
+}

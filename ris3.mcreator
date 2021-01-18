@@ -1,0 +1,412 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Moon_stone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone"
+    },
+    {
+      "name": "Moon_stoneStairs",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_stairs"
+    },
+    {
+      "name": "Moon_stoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_stairs_recipe"
+    },
+    {
+      "name": "Moon_stoneStairsStoneCutter",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_stairs_stone_cutter"
+    },
+    {
+      "name": "Moon_stoneSlab",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_slab"
+    },
+    {
+      "name": "Moon_stoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_slab_recipe"
+    },
+    {
+      "name": "Moon_stoneSlabStoneCutter",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_slab_stone_cutter"
+    },
+    {
+      "name": "Moon_stoneWall",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_wall"
+    },
+    {
+      "name": "Moon_stoneWallRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_wall_recipe"
+    },
+    {
+      "name": "Moon_stoneWallStoneCutter",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_wall_stone_cutter"
+    },
+    {
+      "name": "Moon_stoneFence",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_fence"
+    },
+    {
+      "name": "Moon_stoneFenceRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_fence_recipe"
+    },
+    {
+      "name": "Moon_stoneFenceGate",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_fence_gate"
+    },
+    {
+      "name": "Moon_stoneFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_fence_gate_recipe"
+    },
+    {
+      "name": "Moon_stoneStoneButton",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_stone_button"
+    },
+    {
+      "name": "Moon_stoneStoneButtonRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_stone_button_recipe"
+    },
+    {
+      "name": "Moon_stoneStoneButtonStoneCutter",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_stone_button_stone_cutter"
+    },
+    {
+      "name": "Moon_stonePressurePlate",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_pressure_plate"
+    },
+    {
+      "name": "Moon_stonePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_stone_pressure_plate_recipe"
+    },
+    {
+      "name": "MartianStone",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone"
+    },
+    {
+      "name": "MartianStoneStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_stairs"
+    },
+    {
+      "name": "MartianStoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_stairs_recipe"
+    },
+    {
+      "name": "MartianStoneStairsStoneCutter",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_stairs_stone_cutter"
+    },
+    {
+      "name": "MartianStoneSlab",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_slab"
+    },
+    {
+      "name": "MartianStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_slab_recipe"
+    },
+    {
+      "name": "MartianStoneSlabStoneCutter",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_slab_stone_cutter"
+    },
+    {
+      "name": "MartianStoneWall",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_wall"
+    },
+    {
+      "name": "MartianStoneWallRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_wall_recipe"
+    },
+    {
+      "name": "MartianStoneWallStoneCutter",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_wall_stone_cutter"
+    },
+    {
+      "name": "MartianStoneFence",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_fence"
+    },
+    {
+      "name": "MartianStoneFenceRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_fence_recipe"
+    },
+    {
+      "name": "MartianStoneFenceGate",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_fence_gate"
+    },
+    {
+      "name": "MartianStoneFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_fence_gate_recipe"
+    },
+    {
+      "name": "MartianStoneStoneButton",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_stone_button"
+    },
+    {
+      "name": "MartianStoneStoneButtonRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_stone_button_recipe"
+    },
+    {
+      "name": "MartianStoneStoneButtonStoneCutter",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_stone_button_stone_cutter"
+    },
+    {
+      "name": "MartianStonePressurePlate",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_pressure_plate"
+    },
+    {
+      "name": "MartianStonePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_stone_pressure_plate_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.ris3.moon_stone_wall": "Moon_stone Wall",
+      "block.ris3.martian_stone": "MartianStone",
+      "block.justspace.moon_stone_door": "Moon_stone Door",
+      "block.justspace.martian_stone_stone_button": "MartianStone Stone Button",
+      "block.ris3.martian_stone_pressure_plate": "MartianStone Pressure Plate",
+      "block.justspace.martian_stone_door": "MartianStone Door",
+      "block.justspace.moon_stone_wall": "Moon_stone Wall",
+      "block.justspace.martian_stone_stairs": "MartianStone Stairs",
+      "block.justspace.moon_stone_fence": "Moon_stone Fence",
+      "block.justspace.moon_stone_trap_door": "Moon_stone Trap Door",
+      "block.ris3.moon_stone_fence": "Moon_stone Fence",
+      "block.justspace.martian_stone_fence": "MartianStone Fence",
+      "block.justspace.moon_stone_stairs": "Moon_stone Stairs",
+      "block.justspace.martian_stone_wall": "MartianStone Wall",
+      "block.ris3.martian_stone_stairs": "MartianStone Stairs",
+      "block.justspace.moon_stone_stone_button": "Moon_stone Stone Button",
+      "block.justspace.martian_stone_fence_gate": "MartianStone Fence Gate",
+      "block.justspace.martian_stone_pressure_plate": "MartianStone Pressure Plate",
+      "block.ris3.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
+      "block.ris3.martian_stone_fence_gate": "MartianStone Fence Gate",
+      "block.justspace.martian_stone_trap_door": "MartianStone Trap Door",
+      "block.justspace.martian_stone": "MartianStone",
+      "block.ris3.martian_stone_wall": "MartianStone Wall",
+      "block.ris3.moon_stone_fence_gate": "Moon_stone Fence Gate",
+      "block.ris3.martian_stone_fence": "MartianStone Fence",
+      "block.ris3.moon_stone_stairs": "Moon_stone Stairs",
+      "block.ris3.moon_stone_slab": "Moon_stone Slab",
+      "block.ris3.martian_stone_stone_button": "MartianStone Stone Button",
+      "block.ris3.martian_stone_slab": "MartianStone Slab",
+      "block.justspace.moon_stone_slab": "Moon_stone Slab",
+      "block.justspace.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
+      "block.justspace.moon_stone": "Moon_stone",
+      "block.ris3.moon_stone_stone_button": "Moon_stone Stone Button",
+      "block.justspace.moon_stone_fence_gate": "Moon_stone Fence Gate",
+      "block.justspace.martian_stone_slab": "MartianStone Slab",
+      "block.ris3.moon_stone": "Moon_stone"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "ris3",
+    "modName": "ReallyInSpace 3",
+    "version": "1.0.0",
+    "description": "A Rewrite Of Reallyinspace",
+    "author": "Souldbminer, Some Code From MrScautHD",
+    "websiteURL": "https://github.com/TeamRIS/",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "modlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios",
+      "patchouli"
+    ],
+    "currentGenerator": "forge-1.16.4",
+    "credits": "Some code from MrScautHD",
+    "modElementsPackage": "org.risteam.ris3",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100299999
+}

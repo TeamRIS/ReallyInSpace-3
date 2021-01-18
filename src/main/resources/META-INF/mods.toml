@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="Not specified"
+
+[[mods]]
+modId="ris3"
+version="1.0.0"
+displayName="ReallyInSpace 3"
+credits="Some code from MrScautHD"
+displayURL="https://github.com/TeamRIS/"
+logoFile="logo.png"
+authors="Souldbminer, Some Code From MrScautHD"
+description='''
+A Rewrite Of Reallyinspace
+'''
+
+[[dependencies.ris3]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.ris3]]
+    modId="curios"
+    mandatory=false
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ris3]]
+    modId="patchouli"
+    mandatory=false
+    ordering="NONE"
+    side="BOTH"
+

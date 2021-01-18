@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "ris3:blocks//moonstone/moonstone"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_fv": 16,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": ""
+    },
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:Moon_stone"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:Moon_stoneStairs"
+    },
+    "name": "moon_stone_stairs_stone_cutter",
+    "namespace": "mod"
+  }
+}

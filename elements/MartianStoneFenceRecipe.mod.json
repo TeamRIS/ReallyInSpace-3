@@ -1,0 +1,46 @@
+{
+  "_fv": 16,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MartianStone"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:MartianStone"
+      },
+      {
+        "value": "CUSTOM:MartianStone"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:MartianStone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MartianStoneFence"
+    },
+    "name": "martian_stone_fence_recipe",
+    "namespace": "mod"
+  }
+}

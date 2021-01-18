@@ -1,0 +1,22 @@
+{
+  "group": "ris3",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "ris3:moon_stone"
+    },
+    "1": {
+      "item": "ris3:moon_stone"
+    },
+    "2": {
+      "item": "ris3:moon_stone"
+    }
+  },
+  "result": {
+    "item": "ris3:moon_stone_slab",
+    "count": 6
+  }
+}

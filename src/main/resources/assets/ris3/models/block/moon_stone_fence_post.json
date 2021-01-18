@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "ris3:blocks//moonstone/moonstone",
+    "particle": "ris3:blocks//moonstone/moonstone"
+  }
+}
