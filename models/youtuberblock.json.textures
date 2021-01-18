@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "jungle_planks",
+        "1": "diamond_block",
+        "2": "smooth_stone",
+        "3": "obsidian",
+        "4": "iron_block",
+        "missing": "iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

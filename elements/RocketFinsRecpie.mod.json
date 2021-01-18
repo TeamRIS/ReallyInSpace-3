@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Steahl"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:Steahl"
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:Compressesteel"
+      },
+      {
+        "value": "CUSTOM:Steahl"
+      },
+      {
+        "value": "CUSTOM:Compressesteel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Rocketfins"
+    },
+    "name": "rocket_fins_recpie",
+    "namespace": "mod"
+  }
+}

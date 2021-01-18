@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "iron_block",
+        "2": "redstone_block",
+        "3": "rocket_patery",
+        "missing": "iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

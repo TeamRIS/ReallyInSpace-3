@@ -1,0 +1,22 @@
+{
+  "_fv": 15,
+  "_type": "potion",
+  "definition": {
+    "name": "RocketParticle2",
+    "effectName": "RocketParticle2",
+    "icon": "noair.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "RocketPaticleOnTick"
+    }
+  }
+}

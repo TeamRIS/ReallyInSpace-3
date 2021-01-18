@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "ris3:textures/ab.png",
+    "icon": {
+      "item": "ris3:moon_stone"
+    },
+    "title": {
+      "translate": "advancements.really_in_space.title"
+    },
+    "description": {
+      "translate": "advancements.really_in_space.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "really_in_space": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

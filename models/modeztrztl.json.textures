@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "iron_block",
+        "5": "emerald_block",
+        "missing": "pickaxe"
+      },
+      "name": "default"
+    }
+  }
+}

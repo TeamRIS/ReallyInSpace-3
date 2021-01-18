@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "energy_cable",
+        "1": "energy_cable_lightning"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rocketitemtier2texture",
+        "missing": "rocketitemtier2"
+      },
+      "name": "default"
+    }
+  }
+}

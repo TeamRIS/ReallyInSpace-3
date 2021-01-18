@@ -1,0 +1,7 @@
+{
+  "_fv": 15,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"34\" y=\"33\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_despawn\"><next><block type=\"execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/give @p boss_tools:rocket_item</field></block></value><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value></block></next><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></next></block></xml>"
+  }
+}

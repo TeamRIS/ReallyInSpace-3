@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "smooth_stone",
+        "1": "red_wool",
+        "2": "smooth_stone",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

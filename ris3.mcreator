@@ -342,6 +342,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "martian_stone_pressure_plate_recipe"
+    },
+    {
+      "name": "ReallyInSpace",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "really_in_space"
     }
   ],
   "variable_elements": [],
@@ -367,6 +376,7 @@
       "block.justspace.martian_stone_fence_gate": "MartianStone Fence Gate",
       "block.justspace.martian_stone_pressure_plate": "MartianStone Pressure Plate",
       "block.ris3.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
+      "advancements.really_in_space.title": "Really In Space",
       "block.ris3.martian_stone_fence_gate": "MartianStone Fence Gate",
       "block.justspace.martian_stone_trap_door": "MartianStone Trap Door",
       "block.justspace.martian_stone": "MartianStone",
@@ -378,6 +388,7 @@
       "block.ris3.martian_stone_stone_button": "MartianStone Stone Button",
       "block.ris3.martian_stone_slab": "MartianStone Slab",
       "block.justspace.moon_stone_slab": "Moon_stone Slab",
+      "advancements.really_in_space.descr": "Hi",
       "block.justspace.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
       "block.justspace.moon_stone": "Moon_stone",
       "block.ris3.moon_stone_stone_button": "Moon_stone Stone Button",

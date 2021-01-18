@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "rocket1"
+      },
+      "name": "default"
+    }
+  }
+}

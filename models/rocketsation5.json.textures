@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "rocket1",
+        "2": "redstone_block",
+        "4": "rocket1",
+        "5": "rocket_batery",
+        "missing": "redstone_block"
+      },
+      "name": "default"
+    }
+  }
+}
