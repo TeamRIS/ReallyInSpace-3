@@ -1,0 +1,87 @@
+{
+  "_fv": 16,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 441,
+    "height": 480,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Search planets",
+          "width": 120,
+          "height": 20,
+          "name": "Search",
+          "x": 158,
+          "y": 7
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "marstextureingui.png",
+          "use1Xscale": false,
+          "name": "marstextureingui.png",
+          "x": 31,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mars",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Mars",
+          "x": 38,
+          "y": 64
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Launch",
+          "width": 55,
+          "height": 20,
+          "name": "Launch",
+          "x": 102,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Orbit",
+          "width": 50,
+          "height": 20,
+          "name": "Orbit",
+          "x": 165,
+          "y": 45
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Space Station",
+          "width": 90,
+          "height": 20,
+          "name": "Space Station",
+          "x": 229,
+          "y": 45
+        }
+      }
+    ],
+    "sx": 18,
+    "sy": 18,
+    "ox": 11,
+    "oy": 15,
+    "snapOnGrid": false
+  }
+}

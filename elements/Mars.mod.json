@@ -1,0 +1,51 @@
+{
+  "_fv": 16,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:MartianFlat"
+      },
+      {
+        "value": "CUSTOM:MartianHills"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:MartianStone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:MartianStone"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "SetupGravity"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "ResetGravity"
+    },
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "CUSTOM:Dust"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "",
+    "igniterTab": {
+      "value": "CUSTOM:ReallyInSpace3"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

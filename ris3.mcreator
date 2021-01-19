@@ -372,6 +372,157 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oxygen"
+    },
+    {
+      "name": "TravelGUI",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "travel_gui"
+    },
+    {
+      "name": "SetupGravity",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "setup_gravity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResetGravity",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reset_gravity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dust",
+      "type": "particle",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dust"
+    },
+    {
+      "name": "ReallyInSpace3",
+      "type": "tab",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "really_in_space_3"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "MartianDust",
+      "type": "particle",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_dust"
+    },
+    {
+      "name": "MartianFlat",
+      "type": "biome",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_flat"
+    },
+    {
+      "name": "MartianHills",
+      "type": "biome",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "martian_hills"
+    },
+    {
+      "name": "Mars",
+      "type": "dimension",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mars",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "Rocket",
+      "type": "mob",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket"
+    },
+    {
+      "name": "RocketItemProcedure",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket_item_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -387,6 +538,8 @@
     "en_us": {
       "block.ris3.moon_stone_wall": "Moon_stone Wall",
       "block.ris3.martian_stone": "MartianStone",
+      "biome.ris3.martian_hills": "Martian Hills",
+      "itemGroup.tabreally_in_space_3": "Really In Space 3",
       "block.justspace.moon_stone_door": "Moon_stone Door",
       "block.ris3.martian_stone_pressure_plate": "MartianStone Pressure Plate",
       "block.justspace.martian_stone_stone_button": "MartianStone Stone Button",
@@ -415,12 +568,15 @@
       "block.ris3.moon_stone_stairs": "Moon_stone Stairs",
       "block.ris3.moon_stone_slab": "Moon_stone Slab",
       "block.ris3.martian_stone_stone_button": "MartianStone Stone Button",
+      "item.ris3.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris3.martian_stone_slab": "MartianStone Slab",
+      "biome.ris3.martian_flat": "Martian Flat",
       "block.justspace.moon_stone_slab": "Moon_stone Slab",
       "advancements.really_in_space.descr": "Hi",
       "block.justspace.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
       "block.justspace.moon_stone": "Moon_stone",
       "block.ris3.moon_stone_stone_button": "Moon_stone Stone Button",
+      "entity.ris3.rocket": "Rocket",
       "block.justspace.moon_stone_fence_gate": "Moon_stone Fence Gate",
       "block.justspace.martian_stone_slab": "MartianStone Slab",
       "block.ris3.moon_stone": "Moon_stone"
@@ -428,6 +584,8 @@
     "en_in": {
       "block.ris3.moon_stone_wall": "Moon_stone Wall",
       "block.ris3.martian_stone": "MartianStone",
+      "biome.ris3.martian_hills": "Martian Hills",
+      "itemGroup.tabreally_in_space_3": "Really In Space 3",
       "block.justspace.moon_stone_door": "Moon_stone Door",
       "block.ris3.martian_stone_pressure_plate": "MartianStone Pressure Plate",
       "block.justspace.martian_stone_stone_button": "MartianStone Stone Button",
@@ -456,12 +614,15 @@
       "block.ris3.moon_stone_stairs": "Moon_stone Stairs",
       "block.ris3.moon_stone_slab": "Moon_stone Slab",
       "block.ris3.martian_stone_stone_button": "MartianStone Stone Button",
+      "item.ris3.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris3.martian_stone_slab": "MartianStone Slab",
+      "biome.ris3.martian_flat": "Martian Flat",
       "block.justspace.moon_stone_slab": "Moon_stone Slab",
       "advancements.really_in_space.descr": "Hi",
       "block.justspace.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
       "block.justspace.moon_stone": "Moon_stone",
       "block.ris3.moon_stone_stone_button": "Moon_stone Stone Button",
+      "entity.ris3.rocket": "Rocket",
       "block.justspace.moon_stone_fence_gate": "Moon_stone Fence Gate",
       "block.justspace.martian_stone_slab": "MartianStone Slab",
       "block.ris3.moon_stone": "Moon_stone"

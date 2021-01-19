@@ -1,0 +1,20 @@
+{
+  "_fv": 16,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MartianStone"
+      },
+      {
+        "value": "CUSTOM:Moon_stone"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}
