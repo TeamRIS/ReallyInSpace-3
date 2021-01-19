@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "ris3:blocks//metors/metorstone",
+    "top": "ris3:blocks//metors/metorstone"
+  }
+}

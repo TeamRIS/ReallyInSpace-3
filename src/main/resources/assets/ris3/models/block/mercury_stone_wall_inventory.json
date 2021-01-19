@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "ris3:blocks//graystone",
+    "particle": "ris3:blocks//graystone"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "ris3:blocks//metors/metorstone",
+    "particle": "ris3:blocks//metors/metorstone"
+  }
+}

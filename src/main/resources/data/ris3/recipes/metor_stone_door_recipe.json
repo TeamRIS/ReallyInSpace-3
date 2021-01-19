@@ -1,0 +1,33 @@
+{
+  "group": "ris3",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "ris3:metor_stone"
+    },
+    "1": {
+      "item": "ris3:metor_stone"
+    },
+    "2": {
+      "item": "ris3:metor_stone"
+    },
+    "3": {
+      "item": "ris3:metor_stone"
+    },
+    "4": {
+      "item": "ris3:metor_stone"
+    },
+    "5": {
+      "item": "ris3:metor_stone"
+    }
+  },
+  "result": {
+    "item": "ris3:metor_stone_door",
+    "count": 6
+  }
+}

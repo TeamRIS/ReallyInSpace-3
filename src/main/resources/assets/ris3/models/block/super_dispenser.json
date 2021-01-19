@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ris3:blocks//dispenserbtomandtop",
+    "up": "ris3:blocks//dispenserbtomandtop",
+    "north": "ris3:blocks//disfront",
+    "east": "ris3:blocks//sa/dispenserside",
+    "south": "ris3:blocks//sa/dispenserside",
+    "west": "ris3:blocks//sa/dispenserside",
+    "particle": "ris3:blocks//dispenserbtomandtop"
+  }
+}

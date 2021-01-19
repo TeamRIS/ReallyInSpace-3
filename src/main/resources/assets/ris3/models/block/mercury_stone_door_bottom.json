@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "ris3:blocks//graystone",
+    "top": "ris3:blocks//graystone"
+  }
+}

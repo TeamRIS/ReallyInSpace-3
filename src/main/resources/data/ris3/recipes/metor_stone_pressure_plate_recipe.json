@@ -1,0 +1,16 @@
+{
+  "group": "ris3",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ris3:metor_stone"
+    },
+    {
+      "item": "ris3:metor_stone"
+    }
+  ],
+  "result": {
+    "item": "ris3:metor_stone_pressure_plate",
+    "count": 1
+  }
+}

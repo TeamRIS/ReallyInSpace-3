@@ -1,0 +1,19 @@
+{
+  "_fv": 16,
+  "_type": "potionitem",
+  "definition": {
+    "potionName": "Oxygen Bottle",
+    "splashName": "Throwable Oxygen Bottle",
+    "lingeringName": "Lingring Oxygen Bottle",
+    "arrowName": "Oxdized Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Oxygen"
+        },
+        "duration": 3600,
+        "amplifier": 1
+      }
+    ]
+  }
+}

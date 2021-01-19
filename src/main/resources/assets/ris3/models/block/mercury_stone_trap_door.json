@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "ris3:blocks//graystone",
+    "particle": "ris3:blocks//graystone"
+  }
+}

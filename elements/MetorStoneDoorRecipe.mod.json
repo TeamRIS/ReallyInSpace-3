@@ -1,0 +1,46 @@
+{
+  "_fv": 16,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MetorStone"
+      },
+      {
+        "value": "CUSTOM:MetorStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MetorStone"
+      },
+      {
+        "value": "CUSTOM:MetorStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MetorStone"
+      },
+      {
+        "value": "CUSTOM:MetorStone"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MetorStoneDoor"
+    },
+    "name": "metor_stone_door_recipe",
+    "namespace": "mod"
+  }
+}

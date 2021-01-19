@@ -24,11 +24,6 @@ A Rewrite Of Reallyinspace 2
 
 
 [[dependencies.ris3]]
-    modId="curios"
-    mandatory=false
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.ris3]]
     modId="patchouli"
     mandatory=false
     ordering="NONE"

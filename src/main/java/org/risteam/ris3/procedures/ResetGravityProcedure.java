@@ -23,10 +23,10 @@ public class ResetGravityProcedure extends Ris3ModElements.ModElement {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity) {
-			((LivingEntity) entity).removePotionEffect(OxygenPotion.potion);
+			((LivingEntity) entity).removePotionEffect(Effects.JUMP_BOOST);
 		}
 		if (entity instanceof LivingEntity) {
-			((LivingEntity) entity).removePotionEffect(Effects.JUMP_BOOST);
+			((LivingEntity) entity).removePotionEffect(Effects.SLOW_FALLING);
 		}
 	}
 }

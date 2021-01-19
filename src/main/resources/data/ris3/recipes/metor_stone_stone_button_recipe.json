@@ -1,0 +1,13 @@
+{
+  "group": "ris3",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ris3:metor_stone"
+    }
+  ],
+  "result": {
+    "item": "ris3:metor_stone_stone_button",
+    "count": 1
+  }
+}

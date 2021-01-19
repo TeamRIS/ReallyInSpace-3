@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "ris3:blocks//graystone",
+    "particle": "ris3:blocks//graystone"
+  }
+}

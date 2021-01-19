@@ -1,0 +1,32 @@
+{
+  "group": "ris3",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "ris3:mercury_stone"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "ris3:mercury_stone"
+    },
+    "3": {
+      "item": "ris3:mercury_stone"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "ris3:mercury_stone"
+    }
+  },
+  "result": {
+    "item": "ris3:mercury_stone_fence",
+    "count": 3
+  }
+}

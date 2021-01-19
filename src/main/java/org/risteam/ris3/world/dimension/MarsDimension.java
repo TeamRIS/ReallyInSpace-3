@@ -100,7 +100,6 @@ public class MarsDimension extends Ris3ModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("world", world);
 				SetupGravityProcedure.executeProcedure($_dependencies);
 			}
 		}

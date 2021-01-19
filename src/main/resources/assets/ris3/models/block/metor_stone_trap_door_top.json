@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "ris3:blocks//metors/metorstone",
+    "particle": "ris3:blocks//metors/metorstone"
+  }
+}

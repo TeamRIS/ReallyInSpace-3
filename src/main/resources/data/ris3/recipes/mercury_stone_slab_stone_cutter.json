@@ -1,0 +1,9 @@
+{
+  "group": "ris3",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "ris3:mercury_stone"
+  },
+  "result": "ris3:mercury_stone_slab"
+}

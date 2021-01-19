@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ris3:block/mercury_stone_slab"
+    },
+    "type=top": {
+      "model": "ris3:block/mercury_stone_slab_top"
+    },
+    "type=double": {
+      "model": "ris3:block/mercury_stone_slab_full"
+    }
+  }
+}

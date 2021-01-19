@@ -92,42 +92,6 @@
       "registry_name": "moon_stone_wall_stone_cutter"
     },
     {
-      "name": "Moon_stoneFence",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moon_stone_fence"
-    },
-    {
-      "name": "Moon_stoneFenceRecipe",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moon_stone_fence_recipe"
-    },
-    {
-      "name": "Moon_stoneFenceGate",
-      "type": "block",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moon_stone_fence_gate"
-    },
-    {
-      "name": "Moon_stoneFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moon_stone_fence_gate_recipe"
-    },
-    {
       "name": "Moon_stoneStoneButton",
       "type": "block",
       "sortid": 19,
@@ -263,42 +227,6 @@
       "registry_name": "martian_stone_wall_stone_cutter"
     },
     {
-      "name": "MartianStoneFence",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "martian_stone_fence"
-    },
-    {
-      "name": "MartianStoneFenceRecipe",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "martian_stone_fence_recipe"
-    },
-    {
-      "name": "MartianStoneFenceGate",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "martian_stone_fence_gate"
-    },
-    {
-      "name": "MartianStoneFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "martian_stone_fence_gate_recipe"
-    },
-    {
       "name": "MartianStoneStoneButton",
       "type": "block",
       "sortid": 42,
@@ -395,10 +323,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -487,15 +411,6 @@
       }
     },
     {
-      "name": "Rocket",
-      "type": "mob",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rocket"
-    },
-    {
       "name": "RocketItemProcedure",
       "type": "procedure",
       "sortid": 56,
@@ -504,7 +419,515 @@
       "ids": {},
       "registry_name": "rocket_item_procedure",
       "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "OxygenPortion",
+      "type": "potionitem",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxygen_portion"
+    },
+    {
+      "name": "LiftoffRocket",
+      "type": "keybind",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liftoff_rocket"
+    },
+    {
+      "name": "MercuryStone",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone"
+    },
+    {
+      "name": "MercuryStoneStairs",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_stairs"
+    },
+    {
+      "name": "MercuryStoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_stairs_recipe"
+    },
+    {
+      "name": "MercuryStoneStairsStoneCutter",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_stairs_stone_cutter"
+    },
+    {
+      "name": "MercuryStoneSlab",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_slab"
+    },
+    {
+      "name": "MercuryStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_slab_recipe"
+    },
+    {
+      "name": "MercuryStoneSlabStoneCutter",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_slab_stone_cutter"
+    },
+    {
+      "name": "MercuryStoneWall",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_wall"
+    },
+    {
+      "name": "MercuryStoneWallRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_wall_recipe"
+    },
+    {
+      "name": "MercuryStoneWallStoneCutter",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_wall_stone_cutter"
+    },
+    {
+      "name": "MercuryStoneFence",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_fence"
+    },
+    {
+      "name": "MercuryStoneFenceRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_fence_recipe"
+    },
+    {
+      "name": "MercuryStoneFenceGate",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_fence_gate"
+    },
+    {
+      "name": "MercuryStoneFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_fence_gate_recipe"
+    },
+    {
+      "name": "MercuryStoneTrapDoor",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_trap_door"
+    },
+    {
+      "name": "MercuryStoneTrapDoorRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_trap_door_recipe"
+    },
+    {
+      "name": "MercuryStoneDoor",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_door"
+    },
+    {
+      "name": "MercuryStoneDoorRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_door_recipe"
+    },
+    {
+      "name": "MercuryStoneStoneButton",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_stone_button"
+    },
+    {
+      "name": "MercuryStoneStoneButtonRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_stone_button_recipe"
+    },
+    {
+      "name": "MercuryStoneStoneButtonStoneCutter",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_stone_button_stone_cutter"
+    },
+    {
+      "name": "MercuryStonePressurePlate",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_pressure_plate"
+    },
+    {
+      "name": "MercuryStonePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury_stone_pressure_plate_recipe"
+    },
+    {
+      "name": "MetorStone",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone"
+    },
+    {
+      "name": "MetorStoneStairs",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_stairs"
+    },
+    {
+      "name": "MetorStoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_stairs_recipe"
+    },
+    {
+      "name": "MetorStoneStairsStoneCutter",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_stairs_stone_cutter"
+    },
+    {
+      "name": "MetorStoneSlab",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_slab"
+    },
+    {
+      "name": "MetorStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_slab_recipe"
+    },
+    {
+      "name": "MetorStoneSlabStoneCutter",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_slab_stone_cutter"
+    },
+    {
+      "name": "MetorStoneWall",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_wall"
+    },
+    {
+      "name": "MetorStoneWallRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_wall_recipe"
+    },
+    {
+      "name": "MetorStoneWallStoneCutter",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_wall_stone_cutter"
+    },
+    {
+      "name": "MetorStoneFence",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_fence"
+    },
+    {
+      "name": "MetorStoneFenceRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_fence_recipe"
+    },
+    {
+      "name": "MetorStoneFenceGate",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_fence_gate"
+    },
+    {
+      "name": "MetorStoneFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_fence_gate_recipe"
+    },
+    {
+      "name": "MetorStoneTrapDoor",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_trap_door"
+    },
+    {
+      "name": "MetorStoneTrapDoorRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_trap_door_recipe"
+    },
+    {
+      "name": "MetorStoneDoor",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_door"
+    },
+    {
+      "name": "MetorStoneDoorRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_door_recipe"
+    },
+    {
+      "name": "MetorStoneStoneButton",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_stone_button"
+    },
+    {
+      "name": "MetorStoneStoneButtonRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_stone_button_recipe"
+    },
+    {
+      "name": "MetorStoneStoneButtonStoneCutter",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_stone_button_stone_cutter"
+    },
+    {
+      "name": "MetorStonePressurePlate",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_pressure_plate"
+    },
+    {
+      "name": "MetorStonePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_stone_pressure_plate_recipe"
+    },
+    {
+      "name": "MetorStrike",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_strike",
+      "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperDispenser",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_dispenser"
+    },
+    {
+      "name": "DispenserGUI",
+      "type": "gui",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dispenser_gui"
+    },
+    {
+      "name": "MetorStriceCMD",
+      "type": "command",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_strice_cmd"
+    },
+    {
+      "name": "MetorStrikeCMDTrigger",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metor_strike_cmd_trigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -536,95 +959,135 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.ris3.metor_stone_fence": "MetorStone Fence",
       "block.ris3.moon_stone_wall": "Moon_stone Wall",
+      "item.minecraft.potion.effect.oxygen_portion": "Oxygen Bottle",
+      "key.mcreator.liftoff_rocket": "Liftoff Rocket",
+      "block.ris3.martian_stone_pressure_plate": "MartianStone Pressure Plate",
+      "block.ris3.mercury_stone_slab": "MercuryStone Slab",
+      "block.justspace.martian_stone_stairs": "MartianStone Stairs",
+      "block.ris3.metor_stone_trap_door": "MetorStone Trap Door",
+      "block.justspace.moon_stone_trap_door": "Moon_stone Trap Door",
+      "item.minecraft.splash_potion.effect.oxygen_portion": "Throwable Oxygen Bottle",
+      "item.minecraft.tipped_arrow.effect.oxygen_portion": "Oxdized Arrow",
+      "block.justspace.moon_stone_stairs": "Moon_stone Stairs",
+      "block.justspace.martian_stone_wall": "MartianStone Wall",
+      "block.ris3.martian_stone_stairs": "MartianStone Stairs",
+      "block.ris3.mercury_stone_wall": "MercuryStone Wall",
+      "block.ris3.mercury_stone_fence": "MercuryStone Fence",
+      "block.justspace.martian_stone_fence_gate": "MartianStone Fence Gate",
+      "block.ris3.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
+      "advancements.really_in_space.title": "Really In Space",
+      "block.ris3.mercury_stone_stairs": "MercuryStone Stairs",
+      "block.justspace.martian_stone_trap_door": "MartianStone Trap Door",
+      "block.justspace.martian_stone": "MartianStone",
+      "effect.oxygen": "Oxygen",
+      "item.minecraft.lingering_potion.effect.oxygen_portion": "Lingring Oxygen Bottle",
+      "block.ris3.metor_stone_stone_button": "MetorStone Stone Button",
+      "block.ris3.martian_stone_stone_button": "MartianStone Stone Button",
+      "block.ris3.mercury_stone_fence_gate": "MercuryStone Fence Gate",
+      "biome.ris3.martian_flat": "Martian Flat",
+      "block.justspace.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
+      "block.justspace.martian_stone_slab": "MartianStone Slab",
+      "block.ris3.metor_stone": "MetorStone",
       "block.ris3.martian_stone": "MartianStone",
       "biome.ris3.martian_hills": "Martian Hills",
       "itemGroup.tabreally_in_space_3": "Really In Space 3",
       "block.justspace.moon_stone_door": "Moon_stone Door",
-      "block.ris3.martian_stone_pressure_plate": "MartianStone Pressure Plate",
+      "block.ris3.metor_stone_stairs": "MetorStone Stairs",
       "block.justspace.martian_stone_stone_button": "MartianStone Stone Button",
       "block.justspace.martian_stone_door": "MartianStone Door",
       "block.justspace.moon_stone_wall": "Moon_stone Wall",
-      "block.justspace.martian_stone_stairs": "MartianStone Stairs",
+      "block.ris3.metor_stone_wall": "MetorStone Wall",
       "block.justspace.moon_stone_fence": "Moon_stone Fence",
-      "block.justspace.moon_stone_trap_door": "Moon_stone Trap Door",
-      "block.ris3.moon_stone_fence": "Moon_stone Fence",
+      "block.ris3.metor_stone_slab": "MetorStone Slab",
       "block.justspace.martian_stone_fence": "MartianStone Fence",
-      "block.justspace.moon_stone_stairs": "Moon_stone Stairs",
-      "block.justspace.martian_stone_wall": "MartianStone Wall",
-      "block.ris3.martian_stone_stairs": "MartianStone Stairs",
       "block.justspace.moon_stone_stone_button": "Moon_stone Stone Button",
-      "block.justspace.martian_stone_fence_gate": "MartianStone Fence Gate",
       "block.justspace.martian_stone_pressure_plate": "MartianStone Pressure Plate",
-      "block.ris3.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
-      "advancements.really_in_space.title": "Really In Space",
-      "block.ris3.martian_stone_fence_gate": "MartianStone Fence Gate",
-      "block.justspace.martian_stone_trap_door": "MartianStone Trap Door",
-      "block.justspace.martian_stone": "MartianStone",
+      "block.ris3.mercury_stone": "MercuryStone",
+      "block.ris3.mercury_stone_stone_button": "MercuryStone Stone Button",
       "block.ris3.martian_stone_wall": "MartianStone Wall",
-      "effect.oxygen": "Oxygen",
-      "block.ris3.moon_stone_fence_gate": "Moon_stone Fence Gate",
-      "block.ris3.martian_stone_fence": "MartianStone Fence",
+      "block.ris3.metor_stone_pressure_plate": "MetorStone Pressure Plate",
+      "block.ris3.metor_stone_door": "MetorStone Door",
+      "block.ris3.mercury_stone_door": "MercuryStone Door",
+      "block.ris3.mercury_stone_pressure_plate": "MercuryStone Pressure Plate",
       "block.ris3.moon_stone_stairs": "Moon_stone Stairs",
       "block.ris3.moon_stone_slab": "Moon_stone Slab",
-      "block.ris3.martian_stone_stone_button": "MartianStone Stone Button",
-      "item.ris3.rocket_spawn_egg": "Rocket Spawn Egg",
+      "block.ris3.mercury_stone_trap_door": "MercuryStone Trap Door",
+      "block.ris3.super_dispenser": "Super Dispenser",
+      "block.ris3.metor_stone_fence_gate": "MetorStone Fence Gate",
       "block.ris3.martian_stone_slab": "MartianStone Slab",
-      "biome.ris3.martian_flat": "Martian Flat",
       "block.justspace.moon_stone_slab": "Moon_stone Slab",
       "advancements.really_in_space.descr": "Hi",
-      "block.justspace.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
       "block.justspace.moon_stone": "Moon_stone",
       "block.ris3.moon_stone_stone_button": "Moon_stone Stone Button",
-      "entity.ris3.rocket": "Rocket",
       "block.justspace.moon_stone_fence_gate": "Moon_stone Fence Gate",
-      "block.justspace.martian_stone_slab": "MartianStone Slab",
       "block.ris3.moon_stone": "Moon_stone"
     },
     "en_in": {
+      "block.ris3.metor_stone_fence": "MetorStone Fence",
       "block.ris3.moon_stone_wall": "Moon_stone Wall",
+      "item.minecraft.potion.effect.oxygen_portion": "Oxygen Bottle",
+      "key.mcreator.liftoff_rocket": "Liftoff Rocket",
+      "block.ris3.martian_stone_pressure_plate": "MartianStone Pressure Plate",
+      "block.ris3.mercury_stone_slab": "MercuryStone Slab",
+      "block.justspace.martian_stone_stairs": "MartianStone Stairs",
+      "block.ris3.metor_stone_trap_door": "MetorStone Trap Door",
+      "block.justspace.moon_stone_trap_door": "Moon_stone Trap Door",
+      "item.minecraft.splash_potion.effect.oxygen_portion": "Throwable Oxygen Bottle",
+      "item.minecraft.tipped_arrow.effect.oxygen_portion": "Oxdized Arrow",
+      "block.justspace.moon_stone_stairs": "Moon_stone Stairs",
+      "block.justspace.martian_stone_wall": "MartianStone Wall",
+      "block.ris3.martian_stone_stairs": "MartianStone Stairs",
+      "block.ris3.mercury_stone_wall": "MercuryStone Wall",
+      "block.ris3.mercury_stone_fence": "MercuryStone Fence",
+      "block.justspace.martian_stone_fence_gate": "MartianStone Fence Gate",
+      "block.ris3.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
+      "advancements.really_in_space.title": "Really In Space",
+      "block.ris3.mercury_stone_stairs": "MercuryStone Stairs",
+      "block.justspace.martian_stone_trap_door": "MartianStone Trap Door",
+      "block.justspace.martian_stone": "MartianStone",
+      "effect.oxygen": "Oxygen",
+      "item.minecraft.lingering_potion.effect.oxygen_portion": "Lingring Oxygen Bottle",
+      "block.ris3.metor_stone_stone_button": "MetorStone Stone Button",
+      "block.ris3.martian_stone_stone_button": "MartianStone Stone Button",
+      "block.ris3.mercury_stone_fence_gate": "MercuryStone Fence Gate",
+      "biome.ris3.martian_flat": "Martian Flat",
+      "block.justspace.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
+      "block.justspace.martian_stone_slab": "MartianStone Slab",
+      "block.ris3.metor_stone": "MetorStone",
       "block.ris3.martian_stone": "MartianStone",
       "biome.ris3.martian_hills": "Martian Hills",
       "itemGroup.tabreally_in_space_3": "Really In Space 3",
       "block.justspace.moon_stone_door": "Moon_stone Door",
-      "block.ris3.martian_stone_pressure_plate": "MartianStone Pressure Plate",
+      "block.ris3.metor_stone_stairs": "MetorStone Stairs",
       "block.justspace.martian_stone_stone_button": "MartianStone Stone Button",
       "block.justspace.martian_stone_door": "MartianStone Door",
       "block.justspace.moon_stone_wall": "Moon_stone Wall",
-      "block.justspace.martian_stone_stairs": "MartianStone Stairs",
+      "block.ris3.metor_stone_wall": "MetorStone Wall",
       "block.justspace.moon_stone_fence": "Moon_stone Fence",
-      "block.justspace.moon_stone_trap_door": "Moon_stone Trap Door",
-      "block.ris3.moon_stone_fence": "Moon_stone Fence",
+      "block.ris3.metor_stone_slab": "MetorStone Slab",
       "block.justspace.martian_stone_fence": "MartianStone Fence",
-      "block.justspace.moon_stone_stairs": "Moon_stone Stairs",
-      "block.justspace.martian_stone_wall": "MartianStone Wall",
-      "block.ris3.martian_stone_stairs": "MartianStone Stairs",
       "block.justspace.moon_stone_stone_button": "Moon_stone Stone Button",
-      "block.justspace.martian_stone_fence_gate": "MartianStone Fence Gate",
       "block.justspace.martian_stone_pressure_plate": "MartianStone Pressure Plate",
-      "block.ris3.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
-      "advancements.really_in_space.title": "Really In Space",
-      "block.ris3.martian_stone_fence_gate": "MartianStone Fence Gate",
-      "block.justspace.martian_stone_trap_door": "MartianStone Trap Door",
-      "block.justspace.martian_stone": "MartianStone",
+      "block.ris3.mercury_stone": "MercuryStone",
+      "block.ris3.mercury_stone_stone_button": "MercuryStone Stone Button",
       "block.ris3.martian_stone_wall": "MartianStone Wall",
-      "effect.oxygen": "Oxygen",
-      "block.ris3.moon_stone_fence_gate": "Moon_stone Fence Gate",
-      "block.ris3.martian_stone_fence": "MartianStone Fence",
+      "block.ris3.metor_stone_pressure_plate": "MetorStone Pressure Plate",
+      "block.ris3.metor_stone_door": "MetorStone Door",
+      "block.ris3.mercury_stone_door": "MercuryStone Door",
+      "block.ris3.mercury_stone_pressure_plate": "MercuryStone Pressure Plate",
       "block.ris3.moon_stone_stairs": "Moon_stone Stairs",
       "block.ris3.moon_stone_slab": "Moon_stone Slab",
-      "block.ris3.martian_stone_stone_button": "MartianStone Stone Button",
-      "item.ris3.rocket_spawn_egg": "Rocket Spawn Egg",
+      "block.ris3.mercury_stone_trap_door": "MercuryStone Trap Door",
+      "block.ris3.super_dispenser": "Super Dispenser",
+      "block.ris3.metor_stone_fence_gate": "MetorStone Fence Gate",
       "block.ris3.martian_stone_slab": "MartianStone Slab",
-      "biome.ris3.martian_flat": "Martian Flat",
       "block.justspace.moon_stone_slab": "Moon_stone Slab",
       "advancements.really_in_space.descr": "Hi",
-      "block.justspace.moon_stone_pressure_plate": "Moon_stone Pressure Plate",
       "block.justspace.moon_stone": "Moon_stone",
       "block.ris3.moon_stone_stone_button": "Moon_stone Stone Button",
-      "entity.ris3.rocket": "Rocket",
       "block.justspace.moon_stone_fence_gate": "Moon_stone Fence Gate",
-      "block.justspace.martian_stone_slab": "MartianStone Slab",
       "block.ris3.moon_stone": "Moon_stone"
     }
   },
@@ -642,7 +1105,6 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "curios",
       "patchouli"
     ],
     "currentGenerator": "forge-1.16.4",

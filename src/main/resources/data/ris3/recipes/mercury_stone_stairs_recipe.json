@@ -1,0 +1,33 @@
+{
+  "group": "ris3",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ris3:mercury_stone"
+    },
+    "3": {
+      "item": "ris3:mercury_stone"
+    },
+    "4": {
+      "item": "ris3:mercury_stone"
+    },
+    "6": {
+      "item": "ris3:mercury_stone"
+    },
+    "7": {
+      "item": "ris3:mercury_stone"
+    },
+    "8": {
+      "item": "ris3:mercury_stone"
+    }
+  },
+  "result": {
+    "item": "ris3:mercury_stone_stairs",
+    "count": 4
+  }
+}
