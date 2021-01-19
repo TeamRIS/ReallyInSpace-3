@@ -1,0 +1,20 @@
+{
+  "_fv": 16,
+  "_type": "potion",
+  "definition": {
+    "effectName": "Oxygen",
+    "icon": "e/e.png",
+    "color": {
+      "value": -13421569,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "OxygenTick"
+    }
+  }
+}
